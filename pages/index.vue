@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- Hero Section AMÉLIORÉE -->
+    <!-- Hero Section E -->
     <section class="relative overflow-hidden section-padding bg-gradient-to-br from-caresync-sky-50 via-white to-caresync-emerald-50">
       <div class="container mx-auto px-4 lg:px-8">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -24,7 +24,7 @@
               La première plateforme qui <strong>relie votre traitement à votre bien-être</strong> pour une prise en charge véritablement personnalisée.
             </p>
 
-            <!-- Stats rapides AMÉLIORÉES -->
+            <!-- Stats rapides ES -->
             <div class="grid grid-cols-3 gap-6 pt-6">
               <div class="text-center bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div class="text-4xl font-bold gradient-text">+25%</div>
@@ -40,7 +40,7 @@
               </div>
             </div>
 
-            <!-- CTA Button AMÉLIORÉ -->
+            <!-- CTA Button  -->
             <div>
               <NuxtLink 
                 to="/projet" 
@@ -54,7 +54,7 @@
             </div>
           </div>
 
-          <!-- Illustration / Visuel AMÉLIORÉ -->
+          <!-- Illustration / Visuel  -->
           <div class="relative lg:h-[600px] flex items-center justify-center animate-fade-in">
             <div class="relative w-full max-w-lg">
               <!-- Cercle décoratif animé -->
@@ -111,7 +111,7 @@
       <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"></div>
     </section>
 
-    <!-- Le Problème AMÉLIORÉ -->
+    <!-- Le Problème  -->
     <section class="section-padding bg-white">
       <div class="container mx-auto px-4 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-20 animate-fade-in-up">
@@ -127,7 +127,7 @@
         </div>
 
         <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <!-- Problème 1 AMÉLIORÉ -->
+          <!-- Problème 1  -->
           <div class="group bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl card-hover border-2 border-red-100 hover:border-red-300 transition-all shadow-lg">
             <div class="w-20 h-20 bg-gradient-to-br from-red-400 to-orange-400 rounded-2xl flex items-center justify-center mb-6 transform group-hover:scale-110 group-hover:rotate-3 transition-transform shadow-xl">
               <svg class="w-11 h-11 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -140,7 +140,7 @@
             </p>
           </div>
 
-          <!-- Problème 2 AMÉLIORÉ -->
+          <!-- Problème 2  -->
           <div class="group bg-gradient-to-br from-purple-50 to-pink-50 p-10 rounded-3xl card-hover border-2 border-purple-100 hover:border-purple-300 transition-all shadow-lg">
             <div class="w-20 h-20 bg-gradient-to-br from-purple-400 to-pink-400 rounded-2xl flex items-center justify-center mb-6 transform group-hover:scale-110 group-hover:rotate-3 transition-transform shadow-xl">
               <svg class="w-11 h-11 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -158,7 +158,7 @@
       </div>
     </section>
 
-    <!-- Notre Solution AMÉLIORÉE -->
+    <!-- Notre Solution E -->
     <section class="section-padding bg-gradient-to-br from-caresync-sky-50 to-caresync-emerald-50">
       <div class="container mx-auto px-4 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-20">
@@ -174,7 +174,7 @@
         </div>
 
         <div class="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <!-- Feature 1 - Rappels Intelligents AMÉLIORÉ -->
+          <!-- Feature 1 - Rappels Intelligents  -->
           <div class="group bg-white p-10 rounded-3xl shadow-xl hover:shadow-2xl card-hover border-2 border-sky-100 hover:border-sky-300 transition-all">
             <div class="w-16 h-16 bg-gradient-to-br from-sky-400 to-sky-600 rounded-2xl flex items-center justify-center mb-6 transform group-hover:scale-110 group-hover:rotate-3 transition-transform shadow-lg">
               <svg class="w-9 h-9 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -187,7 +187,7 @@
             </p>
           </div>
 
-          <!-- Feature 2 - Journal de Vie AMÉLIORÉ -->
+          <!-- Feature 2 - Journal de Vie  -->
           <div class="group bg-white p-10 rounded-3xl shadow-xl hover:shadow-2xl card-hover border-2 border-emerald-100 hover:border-emerald-300 transition-all">
             <div class="w-16 h-16 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl flex items-center justify-center mb-6 transform group-hover:scale-110 group-hover:rotate-3 transition-transform shadow-lg">
               <svg class="w-9 h-9 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -200,7 +200,7 @@
             </p>
           </div>
 
-          <!-- Feature 3 AMÉLIORÉ -->
+          <!-- Feature 3  -->
           <div class="group bg-white p-10 rounded-3xl shadow-xl hover:shadow-2xl card-hover border-2 border-purple-100 hover:border-purple-300 transition-all">
             <div class="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-400 rounded-2xl flex items-center justify-center mb-6 transform group-hover:scale-110 group-hover:rotate-3 transition-transform shadow-lg">
               <svg class="w-9 h-9 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -214,7 +214,7 @@
           </div>
         </div>
 
-        <!-- CTA Central AMÉLIORÉ -->
+        <!-- CTA Central  -->
         <div class="text-center mt-16">
           <NuxtLink 
             to="/fonctionnalites" 
@@ -229,7 +229,7 @@
       </div>
     </section>
 
-    <!-- L'Innovation IA AMÉLIORÉE -->
+    <!-- L'Innovation IA E -->
     <section class="section-padding bg-white">
       <div class="container mx-auto px-4 lg:px-8">
         <div class="max-w-6xl mx-auto">
@@ -319,12 +319,12 @@
       </div>
     </section>
 
-    <!-- Appel à l'action AMÉLIORÉ -->
+    <!-- Appel à l'action  -->
     <section class="section-padding relative overflow-hidden bg-gradient-to-t from-[#F5FEF8] to-white text-gray-800">
       <div class="absolute inset-0 bg-gradient-to-t from-[#F5FEF8]/90 to-transparent"></div>
       
       <div class="container mx-auto px-4 lg:px-8 relative z-10">
-        <!-- En-tête amélioré -->
+        <!-- En-tête  -->
         <div class="max-w-4xl mx-auto text-center mb-16 animate-fade-in-up">
           <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             Soutenez l'innovation <br class="hidden md:block" />
@@ -336,7 +336,7 @@
           </p>
         </div>
 
-        <!-- Points clés améliorés -->
+        <!-- Points clés s -->
         <div class="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto mb-16">
           <!-- Card 1 -->
           <div class="group bg-white/70 backdrop-blur-md p-8 rounded-3xl border-2 border-sky-100 hover:border-sky-300 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
@@ -384,7 +384,7 @@
           </div>
         </div>
 
-        <!-- CTA Buttons améliorés -->
+        <!-- CTA Buttons s -->
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <NuxtLink 
             to="/projet" 
