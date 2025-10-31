@@ -42,34 +42,24 @@
           </svg>
         </button>
       </div>
-
-      <!-- Mobile Menu -->
-      <div 
-        v-if="mobileMenuOpen"
-        class="md:hidden py-4 border-t border-sky-100"
-      >
-        <div class="flex flex-col space-y-2">
-          <NuxtLink 
-            v-for="link in navigation" 
-            :key="link.to"
-            :to="link.to"
-            @click="mobileMenuOpen = false"
-            class="px-4 py-3 rounded-lg text-gray-600 hover:text-sky-600 hover:bg-sky-50 font-medium transition-all"
-            active-class="text-sky-600 bg-sky-50"
-          >
-            {{ link.label }}
-          </NuxtLink>
-          <NuxtLink 
-            to="/contact"
-            @click="mobileMenuOpen = false"
-            class="mx-4 px-6 py-3 bg-gradient-to-r from-sky-500 to-emerald-500 text-white font-semibold rounded-xl text-center hover:shadow-lg transition-all"
-          >
-            Nous rejoindre
-          </NuxtLink>
-        </div>
-      </div>
     </nav>
   </header>
+  <div 
+      v-if="mobileMenuOpen"
+      class="md:hidden fixed top-20 left-0 right-0 bottom-0 z-40 bg-white p-4"  >
+    <div class="flex flex-col space-y-2">
+      <NuxtLink 
+        v-for="link in navigation" 
+        :key="link.to"
+        :to="link.to"
+        @click="mobileMenuOpen = false"
+        class="px-4 py-3 rounded-lg text-gray-600 hover:text-sky-600 hover:bg-sky-50 font-medium transition-all"
+        active-class="text-sky-600 bg-sky-50"
+      >
+        {{ link.label }}
+      </NuxtLink>
+    </div>
+  </div>
 </template>
 
 <script setup>
