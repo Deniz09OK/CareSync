@@ -36,6 +36,14 @@ CareSync est une plateforme de santé connectée qui relie l'observance médicam
 ## Lancement
 Le projet cible d'abord la gastro-entérologie (MICI, SII) pour maximiser l'impact et la pertinence clinique.
 
+
+## Installation rapide
+
+```bash
+git clone https://github.com/Deniz09OK/CareSync
+cd CareSync
+```
+
 ## Installation & Démarrage
 
 ```bash
