@@ -28,7 +28,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18 # ou 20
+          node-version: 20 # <-- CHANGE CECI (c'était 18)
           cache: 'npm'
           
       - name: Install dependencies
@@ -44,7 +44,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './.output/public' 
-
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
