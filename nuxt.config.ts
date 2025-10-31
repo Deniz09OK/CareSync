@@ -2,22 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: [
-    '@nuxt/eslint',
-    '@nuxt/content',
-    '@nuxt/image',
-    '@nuxt/scripts',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode'
-  ],
 
-  // Import des styles globaux
-  css: [
-    '~/assets/css/main.css'
-  ],
-
-  // Configuration de l'application
-app: {
+  app: {
     baseURL: '/CareSync/', 
     buildAssetsDir: 'assets',
     head: {
@@ -33,11 +19,9 @@ app: {
           content: 'CareSync relie l\'observance médicamenteuse et la qualité de vie pour une prise en charge personnalisée des maladies chroniques.' 
         },
         { name: 'format-detection', content: 'telephone=no' },
-        // Open Graph
         { property: 'og:title', content: 'CareSync - Plateforme de Santé Connectée' },
         { property: 'og:description', content: 'La première plateforme qui connecte votre traitement à votre bien-être.' },
         { property: 'og:type', content: 'website' },
-        // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'CareSync - Plateforme de Santé Connectée' },
       ],
@@ -46,4 +30,17 @@ app: {
       ]
     }
   },
+
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/content',
+    '@nuxt/image',
+    '@nuxt/scripts',
+    '@nuxtjs/tailwindcss'
+  ],
+
+  // Import des styles globaux
+  css: [
+    '~/assets/css/main.css'
+  ],
 })
