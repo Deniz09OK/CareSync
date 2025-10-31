@@ -899,7 +899,7 @@
           <div class="flex flex-col sm:flex-row justify-center gap-4">
             <NuxtLink 
               to="/projet" 
-              class="group inline-flex items-center space-x-3 px-10 py-5 bg-gradient-to-r from-sky-500 to-emerald-500 text-white font-bold text-lg rounded-2xl hover:from-sky-600 hover:to-emerald-600 hover:scale-105 transition-all duration-300 shadow-2xl"
+              class="group inline-flex items-center space-x-3 px-10 py-5 bg-gradient-to-r from-sky-500 to-emerald-500 text-white font-bold text-lg rounded-2xl hover:from-sky-600 hover:to-emerald-600 hover:scale-105 hover:shadow-sky-500/50 transition-all duration-300 shadow-2xl"
             >
               <span>Le projet complet</span>
               <svg class="w-6 h-6 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

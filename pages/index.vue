@@ -2,6 +2,15 @@
   <div>
     <!-- Hero Section E -->
     <section class="relative overflow-hidden section-padding bg-gradient-to-br from-caresync-sky-50 via-white to-caresync-emerald-50">
+      <!-- Formes décoratives animées -->
+      <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute top-20 left-10 w-72 h-72 bg-sky-200/30 rounded-full blur-3xl animate-pulse-soft"></div>
+        <div class="absolute bottom-20 right-10 w-96 h-96 bg-emerald-200/30 rounded-full blur-3xl animate-pulse-soft" style="animation-delay: 1s;"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-purple-200/20 rounded-full blur-3xl animate-pulse-soft" style="animation-delay: 2s;"></div>
+        <div class="absolute top-1/4 left-1/4 w-3 h-3 bg-sky-400 rounded-full opacity-40 animate-ping" style="animation-duration: 3s;"></div>
+        <div class="absolute top-1/3 right-1/3 w-2 h-2 bg-emerald-400 rounded-full opacity-40 animate-ping" style="animation-duration: 4s; animation-delay: 1s;"></div>
+        <div class="absolute bottom-1/4 left-1/3 w-2 h-2 bg-purple-400 rounded-full opacity-40 animate-ping" style="animation-duration: 5s; animation-delay: 2s;"></div>
+      </div>
       <div class="container mx-auto px-4 lg:px-8">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <!-- Contenu texte -->
@@ -26,15 +35,15 @@
 
             <!-- Stats rapides ES -->
             <div class="grid grid-cols-3 gap-6 pt-6">
-              <div class="text-center bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+              <div class="text-center bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 hover:scale-105">
                 <div class="text-4xl font-bold gradient-text">+25%</div>
                 <div class="text-sm font-medium text-gray-600 mt-2">Observance</div>
               </div>
-              <div class="text-center bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+              <div class="text-center bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 hover:scale-105">
                 <div class="text-4xl font-bold gradient-text">360°</div>
                 <div class="text-sm font-medium text-gray-600 mt-2">Vision patient</div>
               </div>
-              <div class="text-center bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+              <div class="text-center bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 hover:scale-105">
                 <div class="text-4xl font-bold gradient-text">IA</div>
                 <div class="text-sm font-medium text-gray-600 mt-2">Corrélations</div>
               </div>
@@ -44,7 +53,7 @@
             <div>
               <NuxtLink 
                 to="/projet" 
-                class="group inline-flex items-center space-x-3 px-10 py-5 bg-gradient-to-r from-sky-500 to-emerald-500 text-white text-lg font-bold rounded-2xl hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl"
+                class="group inline-flex items-center space-x-3 px-10 py-5 bg-gradient-to-r from-sky-500 to-emerald-500 text-white text-lg font-bold rounded-2xl hover:shadow-2xl hover:scale-105 hover:shadow-sky-500/50 transition-all duration-300 shadow-xl"
               >
                 <span>Découvrir le projet</span>
                 <svg class="w-6 h-6 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -388,7 +397,7 @@
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <NuxtLink 
             to="/projet" 
-            class="group px-10 py-5 bg-gradient-to-r from-sky-500 to-emerald-500 text-white text-lg font-bold rounded-2xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-flex items-center space-x-3 shadow-xl"
+            class="group px-10 py-5 bg-gradient-to-r from-sky-500 to-emerald-500 text-white text-lg font-bold rounded-2xl hover:shadow-2xl hover:scale-105 hover:shadow-sky-500/50 transition-all duration-300 inline-flex items-center space-x-3 shadow-xl"
           >
             <span>En savoir plus sur le projet</span>
             <svg class="w-6 h-6 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

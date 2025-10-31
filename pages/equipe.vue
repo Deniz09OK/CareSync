@@ -6,6 +6,15 @@
       <div class="absolute inset-0 overflow-hidden pointer-events-none">
         <div class="absolute top-20 left-10 w-72 h-72 bg-sky-200/30 rounded-full blur-3xl animate-pulse-soft"></div>
         <div class="absolute bottom-20 right-10 w-96 h-96 bg-emerald-200/30 rounded-full blur-3xl animate-pulse-soft" style="animation-delay: 1s;"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-purple-200/20 rounded-full blur-3xl animate-pulse-soft" style="animation-delay: 2s;"></div>
+        <div class="absolute top-1/4 left-1/4 w-3 h-3 bg-sky-400 rounded-full opacity-40 animate-ping" style="animation-duration: 3s;"></div>
+        <div class="absolute top-1/3 right-1/3 w-2 h-2 bg-emerald-400 rounded-full opacity-40 animate-ping" style="animation-duration: 4s; animation-delay: 1s;"></div>
+        <div class="absolute bottom-1/4 left-1/3 w-2 h-2 bg-purple-400 rounded-full opacity-40 animate-ping" style="animation-duration: 5s; animation-delay: 2s;"></div>
+      </div>
+      <!-- Formes décoratives animées -->
+      <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute top-20 left-10 w-72 h-72 bg-sky-200/30 rounded-full blur-3xl animate-pulse-soft"></div>
+        <div class="absolute bottom-20 right-10 w-96 h-96 bg-emerald-200/30 rounded-full blur-3xl animate-pulse-soft" style="animation-delay: 1s;"></div>
       </div>
 
       <div class="container mx-auto px-4 lg:px-8 relative z-10">
@@ -166,7 +175,7 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               
               <!-- Poste 1 - Backend Developer -->
-              <div class="bg-gradient-to-br from-blue-50 to-white p-6 rounded-2xl border-2 border-blue-100 hover:border-blue-300 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-105">
+              <div class="bg-gradient-to-br from-blue-50 to-white p-6 rounded-2xl border-2 border-blue-100 hover:border-blue-300 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 duration-300 hover:-translate-y-2 hover:scale-105">
                 <div class="flex items-start justify-between mb-4">
                   <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center transition-transform duration-300 group-hover:rotate-6">
                     <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -184,7 +193,7 @@
               </div>
 
               <!-- Poste 2 - Frontend Developer -->
-              <div class="bg-gradient-to-br from-emerald-50 to-white p-6 rounded-2xl border-2 border-emerald-100 hover:border-emerald-300 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-105">
+              <div class="bg-gradient-to-br from-emerald-50 to-white p-6 rounded-2xl border-2 border-emerald-100 hover:border-emerald-300 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 duration-300 hover:-translate-y-2 hover:scale-105">
                 <div class="flex items-start justify-between mb-4">
                   <div class="w-12 h-12 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-xl flex items-center justify-center transition-transform duration-300 group-hover:rotate-6">
                     <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -202,7 +211,7 @@
               </div>
 
               <!-- Poste 3 - Spécialiste IA -->
-              <div class="bg-gradient-to-br from-purple-50 to-white p-6 rounded-2xl border-2 border-purple-100 hover:border-purple-300 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-105">
+              <div class="bg-gradient-to-br from-purple-50 to-white p-6 rounded-2xl border-2 border-purple-100 hover:border-purple-300 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 duration-300 hover:-translate-y-2 hover:scale-105">
                 <div class="flex items-start justify-between mb-4">
                   <div class="w-12 h-12 bg-gradient-to-br from-purple-400 to-purple-600 rounded-xl flex items-center justify-center transition-transform duration-300 group-hover:rotate-6">
                     <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -222,7 +231,7 @@
               </div>
 
               <!-- Poste 4 - DevOps/Cybersécurité -->
-              <div class="bg-gradient-to-br from-red-50 to-white p-6 rounded-2xl border-2 border-red-100 hover:border-red-300 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-105">
+              <div class="bg-gradient-to-br from-red-50 to-white p-6 rounded-2xl border-2 border-red-100 hover:border-red-300 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 duration-300 hover:-translate-y-2 hover:scale-105">
                 <div class="flex items-start justify-between mb-4">
                   <div class="w-12 h-12 bg-gradient-to-br from-red-400 to-red-600 rounded-xl flex items-center justify-center transition-transform duration-300 group-hover:rotate-6">
                     <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -240,7 +249,7 @@
               </div>
 
               <!-- Poste 5 - Chef de Projet -->
-              <div class="bg-gradient-to-br from-amber-50 to-white p-6 rounded-2xl border-2 border-amber-100 hover:border-amber-300 shadow-lg hover:shadow-xl transition-all duration-300 md:col-span-2 lg:col-span-1 hover:-translate-y-2 hover:scale-105">
+              <div class="bg-gradient-to-br from-amber-50 to-white p-6 rounded-2xl border-2 border-amber-100 hover:border-amber-300 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 duration-300 md:col-span-2 lg:col-span-1 hover:-translate-y-2 hover:scale-105">
                 <div class="flex items-start justify-between mb-4">
                   <div class="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl flex items-center justify-center transition-transform duration-300 group-hover:rotate-6">
                     <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -344,7 +353,7 @@
           <div class="flex flex-col sm:flex-row justify-center gap-4">
             <NuxtLink 
               to="/projet" 
-              class="group inline-flex items-center space-x-3 px-10 py-5 bg-gradient-to-r from-sky-500 to-emerald-500 text-white font-bold text-lg rounded-2xl hover:from-sky-600 hover:to-emerald-600 hover:scale-105 transition-all duration-300 shadow-2xl"
+              class="group inline-flex items-center space-x-3 px-10 py-5 bg-gradient-to-r from-sky-500 to-emerald-500 text-white font-bold text-lg rounded-2xl hover:from-sky-600 hover:to-emerald-600 hover:scale-105 hover:shadow-sky-500/50 transition-all duration-300 shadow-2xl"
             >
               <span>Découvrir le projet</span>
               <svg class="w-6 h-6 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
