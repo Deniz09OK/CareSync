@@ -2,11 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  app: {
-    baseURL: '/CareSync/', 
-    buildAssetsDir: 'assets',
-  },
-
   modules: [
     '@nuxt/eslint',
     '@nuxt/content',
@@ -21,7 +16,9 @@ export default defineNuxtConfig({
   ],
 
   // Configuration de l'application
-  app: {
+app: {
+    baseURL: '/CareSync/', 
+    buildAssetsDir: 'assets',
     head: {
       title: 'CareSync - Plateforme de Santé Connectée',
       htmlAttrs: {
@@ -48,5 +45,4 @@ export default defineNuxtConfig({
       ]
     }
   },
-
 })
