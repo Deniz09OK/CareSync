@@ -11,7 +11,7 @@
       <div class="container mx-auto px-4 lg:px-8 relative z-10">
         <div class="max-w-4xl mx-auto text-center animate-fade-in-up">
           <span class="inline-block px-6 py-3 bg-white/80 backdrop-blur-sm shadow-lg text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-emerald-600 rounded-full text-sm font-bold mb-8 border-2 border-sky-100">
-            👥 Les créateurs de CareSync
+            Les créateurs de CareSync
           </span>
           
           <h1 class="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
