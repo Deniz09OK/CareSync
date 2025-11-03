@@ -125,8 +125,8 @@
               <div class="h-1 w-24 bg-gradient-to-l from-emerald-500 to-transparent rounded-full"></div>
             </div>
             
-            <div class="inline-block mb-6">
-              <p class="text-4xl font-bold gradient-text px-8 py-4 bg-gradient-to-r from-sky-50 to-emerald-50 rounded-2xl border-2 border-sky-200">
+            <div class="inline-block mb-6 px-8 py-4 bg-gradient-to-r from-sky-50 to-emerald-50 rounded-2xl border-2 border-sky-200">
+              <p class="text-4xl font-bold gradient-text">
                 = CareSync
               </p>
             </div>
